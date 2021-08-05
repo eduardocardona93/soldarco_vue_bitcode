@@ -1,0 +1,98 @@
+body {
+    font-family: Roboto, 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #fff;
+    color: #3d464d;
+    text-align: left;
+    backface-visibility: hidden;
+}
+
+a,a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1a66ff;
+}
+
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: #1a66ff;
+    color: #ffff;
+}
+
+.widget-aboutus__link--facebook {
+    background: #3c5a99
+}
+
+.footer-newsletter__social-links {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    list-style: none;
+
+    a {
+        font-size: 16px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: inherit;
+        width: 34px;
+        height: 34px;
+        border-radius: 17px;
+        transition: all .2s
+    }
+
+    .footer-newsletter__social-link a {
+        color: #fff
+    }
+    
+    .footer-newsletter__social-link--facebook a {
+        background: #3c5a99
+    }
+    
+    .footer-newsletter__social-link--twitter a {
+        background: #00a2e8
+    }
+    
+    .footer-newsletter__social-link--youtube a {
+        background: #e52e2e
+    }
+    
+    .footer-newsletter__social-link--linkedin a {
+        background: #0073b1
+    }
+    
+    .footer-newsletter__social-link--instagram a {
+        background: #815dc7
+    }
+    
+    .footer-newsletter__social-link--rss a {
+        background: #ffc338
+    }
+}
+
+@media (max-width: 480px){
+    .metodos_de_pago {
+        width: 80%;
+        height: 24px;
+        margin-top: 15px;
+        margin-right: 10%;
+    }
+
+    .v-list--nav .v-list-item:not(:last-child):not(:only-child), .v-list--rounded .v-list-item:not(:last-child):not(:only-child) {
+        margin-bottom: 0px !important;
+        margin-right: -79px !important;
+        margin-left: -15px !important;
+    }
+
+    .footer-newsletter__social-link--instagram {
+        margin-left: -15px;
+    }
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.product_name {
+    overflow: hidden;
+    text-transform: lowercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 170px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin-bottom: 0px !important;
+}
+
+.product_name::first-letter {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.product_brand {
+    overflow: hidden;
+    text-transform: lowercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 170px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-bottom: 0px !important;
+}
+
+.product_brand::first-letter {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.product_reference {
+    overflow: hidden;
+    text-transform: lowercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 170px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-bottom: 0px !important;
+}
+
+.product_reference::first-letter {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.buttonMinus {
+    left: 0;
+    border-radius: 4px 0 0 4px;
+    transition: all 0.3s linear;
+    background-color: #fff !important;
+    top: 0;
+    color: #000 !important;
+    opacity: 1;
+    visibility: visible;
+    min-width: 0 !important;
+    box-shadow: none !important;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    text-align: center;
+    text-transform: lowercase;
+    height: 34px !important;
+    min-width: 0 !important;
+    padding: 0 6px !important;
+
+    .mdi-minus {
+        font-size: 12px;
+    }
+}
+
+.counter {
+    transition: all .3s linear;
+    border: 1px solid #e5edef;
+    border-radius: 8px;
+    font-weight: 700;
+    line-height: 34px;
+    min-width: 30px;
+    padding: 0 4px;
+    position: relative;
+    width: auto;
+    z-index: 0;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    text-transform: lowercase;
+    height: 34px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.buttonPlus {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+    transition: all 0.3s linear;
+    background-color: #fff !important;
+    top: 0;
+    color: #000 !important;
+    opacity: 1;
+    visibility: visible;
+    min-width: 0 !important;
+    box-shadow: none !important;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    text-align: center;
+    text-transform: lowercase;
+    height: 34px !important;
+    min-width: 0 !important;
+    padding: 0 6px !important;
+    border-radius: 8px;
+
+    .mdi-plus {
+        font-size: 14px !important;
+    }
+}
+
+.product_price {
+    color: #dc0b13;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 13px;
+}
+
+.product_brand {
+    font-size: .8125rem;
+    color: #222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    -webkit-line-clamp: 2;
+    text-align: start;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    padding: 0;
+    margin-bottom: 3px;
+}
+.dropCart {
+    color: #000;
+    letter-spacing: normal !important;
+    word-spacing: normal;
+    text-transform: lowercase;
+    text-indent: 0px;
+}
+
+.dropCart::first-letter {
+    text-transform: capitalize;
+}
+
+.paymentButton {
+    background: linear-gradient(60deg, #027fff, #1976D2);
+}
+
+.totalProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #027fff;
+}
+
+.goToPay {
+    letter-spacing: normal !important;
+    word-spacing: normal;
+    text-transform: lowercase;
+    text-indent: 0px;
+    margin-right: 5px;
+}
+
+.goToPay::first-letter {
+    text-transform: capitalize;
+}
+
+.totalCart {
+    letter-spacing: normal !important;
+    word-spacing: normal;
+    text-transform: capitalize;
+    text-indent: 0px;
+    text-transform: capitalize;
+}
+
+.v-btn--contained.buttonDropCart {
+    box-shadow: none;
+}
+
+@media (hover:hover){
+    .v-btn--contained.buttonDropCart {
+        box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    }
+}

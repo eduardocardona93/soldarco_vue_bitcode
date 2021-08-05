@@ -1,0 +1,25 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+@import "vue-select/src/scss/vue-select.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import 'soldarco/mixins';
+@import 'soldarco/variables';
+@import 'soldarco/footer';
+@import 'soldarco/header';
+@import 'soldarco/content';
+@import 'soldarco/home';
+@import 'soldarco/Business';
+@import 'soldarco/News';
+@import 'vue-select/src/scss/vue-select.scss';
+@import 'soldarco/Login';
+@import 'soldarco/PopupCart';
+@import 'vue-select/src/scss/vue-select.scss';
+@import 'soldarco/shop';
+@import 'soldarco/login';
+@import 'soldarco/Products';
+
+$color-pack: false;
+
+@import 'vuetify/src/styles/main.sass';
+

@@ -1,0 +1,133 @@
+.v-responsive__content {
+    // text-align: center;
+    // // margin: 20px;
+
+    .buttonMoreView {
+        // text-align: center;
+    }
+
+    .textDescription {
+        // text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+.block-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 24px; 
+
+    .block-header__title {
+        margin-bottom: 0;
+        font-size: 20px;
+        margin-right: 45px;
+        
+    }
+
+    .block-header__divider {
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        height: 2px;
+        background: #ebebeb;
+        margin-right: 5px;
+    }
+}
+
+.cards {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.carta {
+    height: 550px;
+    margin: 4px;
+    width: calc(20% - 9px);
+    max-height: 550px;
+}
+.v-application a {
+    color: #222 !important;
+}
+.v-application a:hover {
+    color: #1e88e5 !important;
+}
+.dividerFilter {
+    background: #ededed !important;
+    height: 1px;
+    margin-top: 19px;
+}
+.dividerFilter1 {
+    background: #ededed !important;
+    height: 1px;
+    margin-top: -13px;
+}
+.dividerFilter2 {
+    background: #ededed !important;
+    height: 1px;
+    margin-top: -13px;
+}
+.dividerFilter3 {
+    background: #ededed !important;
+    height: 1px;
+    margin-top: 19px;
+}
+.dividerFilter4 {
+    background: #ededed !important;
+    height: 1px;
+    margin-top: -13px;
+}
+
+@media (hover:hover){
+    .carta {
+        .card__actions {
+            padding-top: 30px;
+            display: none;
+        }
+    }
+    
+    .carta:hover {
+        border: 3px solid #1976d2;
+        padding: 8px;
+
+        .card__actions {
+            display: block;
+        }
+    }
+}
+
+.footer-newsletter__social-links a i {
+    color: #fff !important;
+}
+
+.hiper {
+    color: #000 !important;
+    font-weight: 700 !important;
+}
+
+.solda {
+    color: #000 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin-top: 18px !important;
+}
+
+@media (max-width: 480px) {
+    .carta {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .v-carousel {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .v-btn--icon.v-size--small {
+        height: 28px;
+        width: 15px;
+    }
+}

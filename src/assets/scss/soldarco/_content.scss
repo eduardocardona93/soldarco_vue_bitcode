@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto, 'sans-serif';
+    font-size: $generalFontSize;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #fff;
+    color: $lightGrayColor;
+    backface-visibility: hidden;
+}
+
+a, a:hover {
+    color: $lightGrayColor;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $lightBlueColor;
+    text-decoration: none;
+}

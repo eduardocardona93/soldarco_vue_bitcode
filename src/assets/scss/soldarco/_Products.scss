@@ -1,0 +1,39 @@
+.shope {
+    margin-right: 20px;
+}
+
+.cal {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px){
+    .shope {
+        height: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .construction {
+        img {
+            width: 100% !important;
+            height: 200px !important;
+            margin-bottom: -60px ;
+        }
+    }
+
+    .input-contact {
+        min-width: 100%;
+    }
+
+    .img-checkout {
+        height: 32px !important;
+        margin-top: 6px;
+    }
+
+    .v-application--is-ltr .v-data-table__mobile-row__cell {
+        text-align: right;
+        font-size: 12px;
+    }
+}
