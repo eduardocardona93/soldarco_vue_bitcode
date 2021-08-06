@@ -6,9 +6,7 @@
                 <div class="block-header__divider"></div>
             </div>
             <v-col cols="12">
-                <div>
-                    {{ po }}
-                </div>
+                <div id="productHtml"></div>
                 <!-- <v-row align="center" justify="center">
                     <v-card v-for="(item, index) in po" :key="index" max-width="30%" class="shope" height="100%">
                         <img :src="'http://app.soldarco.com/Doom/Bootstrap/Servicios/sweb_blog_imagen.ashx?reg=' + item.registros" alt="" style="max-width: 100%">
@@ -77,6 +75,9 @@ export default {
                                 
 
                 this.po = new DOMParser().parseFromString(doc, "text/html").documentElement.textContent 
+
+                const productHtml = document.querySelector('#productHtml');
+                productHtml.innerHTML = this.po;
                 console.log(this.po)
             }).catch(error => {
                 console.log(error)
